@@ -13,9 +13,7 @@ let cse = new Discord.MessageEmbed()
 .setFooter("Xure")
 message.channel.send(cse)
 message.react("📊")
-
 }
-
 module.exports.help = {
 name: "stats",
   aliases: ["s"]
