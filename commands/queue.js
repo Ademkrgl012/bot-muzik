@@ -3,9 +3,7 @@ const config = require("../settings/config.json");
 const { noPlaying } = require("../lib/embedMessages.js");
 
 module.exports.run = async (client, message, args) => {
-
-    const queue = message.client.queue
-    const serverQueue = queue.get(message.guild.id);
+  const queue = message.client.queueconst serverQueue = queue.get(message.guild.id);
     if (!serverQueue) return noPlaying(message);
     let queueMessage = new Discord.MessageEmbed()
         .setDescription(`
