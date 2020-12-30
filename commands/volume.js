@@ -18,5 +18,5 @@ module.exports.run= async(client, message, args) => {
 }
 module.exports.help = {
 name: "volume",
-aliases: ["s"]
+aliases: ["vol", "vols", "v"]
 }
