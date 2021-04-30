@@ -37,7 +37,7 @@ message.channel.send(embed)
 
 }
 }catch{
-  message.channel.send(new Discord.MessageEmbed().setColor(config.cyan).setDescription("Undefined User"));
+  message.channel.send(new Discord.MessageEmbed().setColor(config.cyan).setDescription("Öyle Bir Kullanıcı Bulunamadı"));
   return;
 }
 
